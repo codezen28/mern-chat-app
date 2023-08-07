@@ -18,7 +18,7 @@ import "./styles.css";
 import ScrollableChats from "./ScrollableChats";
 import io from "socket.io-client";
 
-const ENDPOINT = "https://chit-chat-app-e8vc.onrender.com";
+const ENDPOINT = "https://chit-chat-3xgu.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChats = ({ fetchAgain, setFetchAgain }) => {
