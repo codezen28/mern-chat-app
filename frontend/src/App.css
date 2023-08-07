@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+.App{
+    min-height: 100vh;
+    display:flex;
+    background-image: url("./background.png");
+    background-size: cover;
+    background-position: center;
+    color:black;
+}
+
+.chat-header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 91.5vh;
+    padding: 10px;
+}
+.sidedrawer-header{
+     display:flex;
+       justify-content:space-between;
+        align-items:center;
+        background-color: white;
+        width:100%;
+        padding:5px 10px 5px 10px;
+        border-width: 5px
+}
+
+.text-align{
+    display: flex;
+    justify-content: center;
+}
+
+.list-item{
+    display:flex;
+    align-items: center;
+}
+
+.text-align2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.group-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.drawer-search{
+    display: flex;
+    padding-bottom: 2px;
+}
+
+.group-chat{
+    display:flex;
+        justify-content: space-between;
+            align-items: center;
+            width: 100%;
+         
+}
+
+.badge{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.radius{
+    border-radius: 5px;
+}
+::-webkit-scrollbar{width:0px;}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(136,136, 136, 0.281);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
